@@ -193,7 +193,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/@\/credit-agricole\/credit-agricole\/bureau"
+                 "value":"\/@\/credit-agricole\/credit-agricole\/bureau#from-island"
                 }],
          "type":"tilelayer",
          "visible":true,
