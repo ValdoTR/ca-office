@@ -593,7 +593,7 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"island.png"
         }, 
         {
          "name":"mapLink",
