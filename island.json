@@ -129,7 +129,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"music\/528661__taavhaap__relaxing-forest-birds-chirping-in-the-north-woods-part1.ogg"
+                 "value":"src\/assets\/audio\/528661__taavhaap__relaxing-forest-birds-chirping-in-the-north-woods-part1.ogg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -152,7 +152,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"music\/254371__emmaproductions__by-the-blacksmith-001.ogg"
+                 "value":"src\/assets\/audio\/254371__emmaproductions__by-the-blacksmith-001.ogg"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -175,7 +175,7 @@
                 {
                  "name":"playAudio",
                  "type":"string",
-                 "value":"music\/62487__sagetyrtle__1103campfire1.ogg"
+                 "value":"src\/assets\/audio\/62487__sagetyrtle__1103campfire1.ogg"
                 }],
          "type":"tilelayer",
          "visible":true,
