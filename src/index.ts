@@ -16,17 +16,12 @@ const config = [
         ]
     },
     {
-        zone: 'joystickPirate',
-        message: 'Pour jouer entre vous, entrez le même nom de "room" puis lancez la partie !',
+        zone: 'joystickTetris',
+        message: 'Jouez en solo. Votre partie n\'est pas partagée.',
         cta: []
     },
     {
-        zone: 'joystickUno',
-        message: 'Pour jouer entre vous, entrez le même nom de "room" puis lancez la partie !',
-        cta: []
-    },
-    {
-        zone: 'joystickPong',
+        zone: 'joystickSpyfall',
         message: 'Pour jouer entre vous, entrez le même nom de "room" puis lancez la partie !',
         cta: []
     },
@@ -40,23 +35,18 @@ WA.room.onEnterZone('followUs', () => {
     currentZone = 'followUs'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.room.onEnterLayer('joystickPirate').subscribe(() => {
-    currentZone = 'joystickPirate'
+WA.room.onEnterLayer('joystickTetris').subscribe(() => {
+    currentZone = 'joystickTetris'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.room.onEnterLayer('joystickUno').subscribe(() => {
-    currentZone = 'joystickUno'
-    openPopup(currentZone, currentZone + 'Popup')
-});
-WA.room.onEnterLayer('joystickPong').subscribe(() => {
-    currentZone = 'joystickPong'
+WA.room.onEnterLayer('joystickSpyfall').subscribe(() => {
+    currentZone = 'joystickSpyfall'
     openPopup(currentZone, currentZone + 'Popup')
 });
 WA.room.onLeaveZone('needHelp', closePopup);
 WA.room.onLeaveZone('followUs', closePopup);
-WA.room.onLeaveLayer('joystickPirate').subscribe(closePopup);
-WA.room.onLeaveLayer('joystickUno').subscribe(closePopup);
-WA.room.onLeaveLayer('joystickPong').subscribe(closePopup);
+WA.room.onLeaveLayer('joystickTetris').subscribe(closePopup);
+WA.room.onLeaveLayer('joystickSpyfall').subscribe(closePopup);
 
 
 function openPopup(zoneName: string, popupName: string) {
