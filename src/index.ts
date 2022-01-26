@@ -20,8 +20,13 @@ const config = [
         message: 'Jouez en solo. Votre partie n\'est pas partagée.',
         cta: []
     },
+      {
+        zone: 'joystickPong',
+        message: 'Jouez en solo. Votre partie n\'est pas partagée.',
+        cta: []
+    },
     {
-        zone: 'joystickSpyfall',
+        zone: 'joystickGartic',
         message: 'Pour jouer entre vous, entrez le même nom de "room" puis lancez la partie !',
         cta: []
     },
@@ -39,14 +44,20 @@ WA.room.onEnterLayer('joystickTetris').subscribe(() => {
     currentZone = 'joystickTetris'
     openPopup(currentZone, currentZone + 'Popup')
 });
-WA.room.onEnterLayer('joystickSpyfall').subscribe(() => {
-    currentZone = 'joystickSpyfall'
+WA.room.onEnterLayer('joystickPong').subscribe(() => {
+    currentZone = 'joystickPong'
+    openPopup(currentZone, currentZone + 'Popup')
+});
+WA.room.onEnterLayer('joystickGartic').subscribe(() => {
+    currentZone = 'joystickGartic'
     openPopup(currentZone, currentZone + 'Popup')
 });
 WA.room.onLeaveZone('needHelp', closePopup);
 WA.room.onLeaveZone('followUs', closePopup);
 WA.room.onLeaveLayer('joystickTetris').subscribe(closePopup);
-WA.room.onLeaveLayer('joystickSpyfall').subscribe(closePopup);
+WA.room.onLeaveLayer('joystickPong').subscribe(closePopup);
+WA.room.onLeaveLayer('joystickGartic').subscribe(closePopup);
+
 
 
 function openPopup(zoneName: string, popupName: string) {
