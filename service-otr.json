@@ -57,7 +57,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"\/@\/credit-agricole\/credit-agricole\/accueil#depuis-service-aeu"
+                         "value":"\/@\/credit-agricole\/credit-agricole\/accueil#depuis-service-organisation"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -93,7 +93,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"MeetingRoomAEU"
+                         "value":"MeetingRoomOrganisation"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -121,7 +121,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"ChillZoneAEU"
+                         "value":"ChillZoneOrganisation"
                         }, 
                         {
                          "name":"jitsiTrigger",
@@ -149,7 +149,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/app.tryeraser.com\/workspace\/nFJ5zHuRWL2KrJzBGurN"
+                         "value":"https:\/\/app.tryeraser.com\/workspace\/GuOxr9vgkFXHEbGdFzI6"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -177,7 +177,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/app.tryeraser.com\/workspace\/NYXprIQko3tQS4s02F3W"
+                         "value":"https:\/\/app.tryeraser.com\/workspace\/lCmqp2LGTQQDglsqRSln"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -332,14 +332,14 @@
                     {
                      "fontfamily":"Sans Serif",
                      "pixelsize":11,
-                     "text":"Service AEU",
+                     "text":"Service OTR",
                      "wrap":true
                     },
                  "type":"",
                  "visible":true,
-                 "width":91.4375,
-                 "x":449.197916666667,
-                 "y":297.833333333333
+                 "width":125.9375,
+                 "x":423.78125,
+                 "y":296
                 }, 
                 {
                  "height":23.25,
@@ -354,7 +354,7 @@
                  "type":"",
                  "visible":true,
                  "width":119.187,
-                 "x":440.313511344616,
+                 "x":438.409103682351,
                  "y":158.819485772736
                 }],
          "opacity":1,
@@ -416,17 +416,17 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"service-aeu.png"
+         "value":"service-otr.png"
         }, 
         {
          "name":"mapLink",
          "type":"string",
-         "value":"https:\/\/valdotr.github.io\/ca-office\/service-aeu.json"
+         "value":"https:\/\/valdotr.github.io\/ca-office\/service-organisation.json"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Service AEU"
+         "value":"Service OTR"
         }, 
         {
          "name":"script",
